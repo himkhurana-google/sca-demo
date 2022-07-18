@@ -20,3 +20,7 @@ function notExposedVuln() {
   const args = ["a", "b", "c", "d"]
   console.log(minimist(args))
 }
+
+function newFunc() {
+  return 1 + 1;
+}
